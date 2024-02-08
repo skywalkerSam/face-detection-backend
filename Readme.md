@@ -1,6 +1,8 @@
 # Backend server for [face-detection](https://github.com/skywalkerSam/face-detection)
 
-Enter your Clarifai PAT and username inside `controllers/image.js`.
+- Edit database configurations under `server.js`
+- Enter your Clarifai PAT and username inside `controllers/image.js`.
+
 
 ## Stack Specifications:
 - Express.js
@@ -8,10 +10,12 @@ Enter your Clarifai PAT and username inside `controllers/image.js`.
 - postgreSQL
 - Knex.js
 
+
 ## Tools:
 - DBeaver
 - Postman
 - VS Code
+
 
 ## Using nodemon, put this under `"scripts"` in package.json
 
@@ -28,6 +32,7 @@ npm i nodemon
 ```shell
 npm start
 ```
+
 
 ## Until next time...
 
