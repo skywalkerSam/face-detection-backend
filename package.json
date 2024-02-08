@@ -1,0 +1,24 @@
+{
+  "name": "face-detection-backend-server",
+  "version": "1.0.0",
+  "description": "test for face-detection backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "skywalkersam",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "clarifai-nodejs-grpc": "^10.0.10",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "knex": "^3.1.0",
+    "netlify-cli": "^17.16.0",
+    "node-polyfill-webpack-plugin": "^3.0.0",
+    "nodemon": "^3.0.2",
+    "path-browserify": "^1.0.1",
+    "pg": "^8.11.3"
+  }
+}
