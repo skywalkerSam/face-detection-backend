@@ -4,14 +4,16 @@
 - Enter your Clarifai PAT and username inside `controllers/image.js`.
 
 
-## Stack Specifications:
+## Stacks Used
+
 - Express.js
 - bcrypt
 - postgreSQL
 - Knex.js
 
 
-## Tools:
+## Tools Used
+
 - DBeaver
 - Postman
 - VS Code
