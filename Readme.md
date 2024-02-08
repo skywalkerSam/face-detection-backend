@@ -2,7 +2,7 @@
 
 Enter your Clarifai PAT and username inside `controllers/image.js`.
 
-## Server Specifications:
+## Stack Specifications:
 - Express.js
 - bcrypt
 - postgreSQL
