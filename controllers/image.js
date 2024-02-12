@@ -2,8 +2,8 @@
 
 const clarifaiRequest = (req, res) => {
     // Clarifai API: gRPC 
-    const PAT = '';         // Enter Your Personal Access Token HERE...!
-    const USER_ID = '';
+    const PAT = process.env.PAT;         // Enter Your Personal Access Token HERE...!
+    const USER_ID = process.env.USER_ID;
     const APP_ID = 'face-detection';
     const MODEL_ID = 'face-detection';
     const MODEL_VERSION_ID = '6dc7e46bc9124c5c8824be4822abe105';

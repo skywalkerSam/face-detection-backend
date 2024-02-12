@@ -29,7 +29,11 @@ const profile = require('./controllers/profile');
 const image = require('./controllers/image');
 
 const PORT = process.env.PORT || 3333;
+const DATABASE = process.env.DATABASE;
+const DATABASE_USER = process.env.DATABASE_USER;
+const DB_PASSWORD = process.env.PASSWORD;
 // const DATABASE_URL = process.env.DATABASE_URL || 'postgres://localhost:5432/prod'
+
 const saltRounds = 10;
 
 const app = express();
@@ -42,9 +46,9 @@ const db = knex({
     connection: {
         host: '127.0.0.1',
         port: 5432,
-        user: 'postgres',
-        password: '',       // Enter DB password here!
-        database: 'prod'
+        user: DATABASE_USER,
+        password: DB_PASSWORD,
+        database: DATABASE
     }
 });
 
