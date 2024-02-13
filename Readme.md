@@ -48,14 +48,13 @@ npm i nodemon
 npm start
 ```
 
+## I'm exhausted by writing this command for deployment everytime...
+
+```bash
+git pull ; git status ; git add . ; git commit -m "Deployment" ; git push origin main ; git status
+```
 
 ## Until next time...
 
 # ;)
 
-
-I'm exhausted by writing this command everytime...
-
-```bash
-git pull ; git status ; git add . ; git commit -m "Deployment" ; git push origin main ; git status
-```
