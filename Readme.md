@@ -1,10 +1,23 @@
 # Backend server for [face-detection](https://github.com/skywalkerSam/face-detection)
 
-- Edit database configurations under `server.js`
-- Enter your Clarifai PAT and username inside `controllers/image.js`.
+Here's the link to the deployment of [face-detection-backend](https://github.com/skywalkerSam/face-detection-backend)
+
+- Using `gRPC` 
+- Using Environment Variables!
+- The default value of `PORT` is `10000` for all [Render](https://render.com/) web services.
+
+## Please Specify the following...
+- `process.env.PORT`
+- `process.env.PAT`
+- `process.env.USER_ID`
+
+## For `bash` shells
+```shell
+PAT=enteryourpat USER_ID=yourusername node server.js
+```
 
 
-## Stacks Used
+## Technical Details...
 
 - Express.js
 - bcrypt
@@ -39,3 +52,10 @@ npm start
 ## Until next time...
 
 # ;)
+
+
+I'm exhausted by writing this command everytime...
+
+```bash
+git pull ; git status ; git add . ; git commit -m "Deployment" ; git push origin main ; git status
+```
