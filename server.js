@@ -65,3 +65,18 @@ app.post('/imageurl', (req, res) => { image.clarifaiRequest(req, res) });
 app.listen(PORT, () => {
     console.log(`\nServer running on: http://localhost:${PORT} \n\nPress Ctrl+C to stop.`)
 })
+
+
+
+/* 
+Sample Images URLs:
+
+    - https://samples.clarifai.com/metro-north.jpg
+
+    - https://cdna.artstation.com/p/assets/images/images/072/167/834/large/eunice-ye-.jpg?1706752364
+
+    - https://cdna.artstation.com/p/assets/images/images/072/178/120/large/alex-gray-tbrender-camera-38.jpg?1706781629
+
+    - https://cdnb.artstation.com/p/assets/images/images/072/184/959/4k/hwng-edric-nguyen-tbrender-viewport-009.jpg?1706793715
+
+*/
