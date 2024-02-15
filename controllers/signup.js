@@ -29,7 +29,7 @@ const handleSignup = (req, res, db, bcrypt, saltRounds) => {
                 .then(trx.commit)
                 .catch(trx.rollback)
         })
-            .catch(err => res.status(400).json("User already exists... Try Signing In!"));
+            .catch(err => res.status(400).json("User already exists, Try Signing In...!"));
     })
 }
 
