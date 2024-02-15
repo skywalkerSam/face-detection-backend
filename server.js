@@ -56,5 +56,6 @@ app.post('/imageurl', (req, res) => { image.clarifaiRequest(req, res) });
 
 
 app.listen(PORT, () => {
-    console.log(`\nServer running on: http://localhost:${PORT} \n\nPress Ctrl+C to stop.`)
+    // console.log(`\nServer running on: http://localhost:${PORT} \n\nPress Ctrl+C to stop.`)
+    console.log("Server is live and running...!")
 })
