@@ -10,6 +10,7 @@
   "author": "skywalkersam",
   "license": "MIT",
   "dependencies": {
+    "@railway/cli": "^3.5.2",
     "bcrypt": "^5.1.1",
     "clarifai-nodejs-grpc": "^10.0.10",
     "cors": "^2.8.5",
