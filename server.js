@@ -44,11 +44,7 @@ const knex = require('knex')
 const db = knex({
     client: 'pg',
     connection: {
-        host: '127.0.0.1',
-        port: 5432,
-        user: DATABASE_USER,
-        password: DB_PASSWORD,
-        database: DATABASE
+        DATABASE_URL: process.env.DATABASE_URL,
     }
 });
 
